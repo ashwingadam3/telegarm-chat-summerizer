@@ -1,4 +1,4 @@
-# Telegram Web Chat Analyzer
+# Telegram Web Chat Summerizer
 
 A sophisticated Manifest V3 Chrome Extension that securely extracts and analyzes the messages from any active group chat on Telegram Web.
 
