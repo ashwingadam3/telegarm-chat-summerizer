@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Telegram Web Chat Analyzer",
+  "version": "1.0",
+  "description": "Extract and analyze today's Telegram Web chat activity.",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://web.telegram.org/*"
+  ]
+}

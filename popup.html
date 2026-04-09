@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Chat Analyzer</h1>
+      <p>Current Telegram Web Group</p>
+    </div>
+    
+    <button id="analyze-btn">
+      <span class="btn-text">Analyze Today's Chat</span>
+      <div class="loader hidden"></div>
+    </button>
+    
+    <div id="results" class="results-container hidden">
+      <div class="stat-card">
+        <h3>Total Messages Today</h3>
+        <p id="total-messages" class="stat-value">0</p>
+      </div>
+      
+      <div class="stat-card">
+        <h3>Top 5 Senders (Click to view)</h3>
+        <ul id="top-senders" class="sender-list">
+          <!-- Populated dynamically -->
+        </ul>
+      </div>
+
+      <div class="stat-card">
+        <h3>Chat Topics</h3>
+        <p id="top-topics" class="words-list">...</p>
+      </div>
+
+      <div class="stat-card hidden" id="rohan-card">
+        <h3 id="sender-messages-title">Messages</h3>
+        <div id="rohan-messages" class="messages-list">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+    <div id="error-msg" class="error hidden"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
