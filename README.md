@@ -33,3 +33,5 @@ As this is a locally unpacked extension, it needs to be installed via Chrome's D
 - **Vanilla JavaScript:** Fast, dependency-free content and background scripts.
 - **Manifest V3:** Adheres to the latest Chrome extension security and performance protocols.
 - **HTML/CSS:** Premium, modern interface design.
+
+## Demo vedio Link: https://youtu.be/LLlG8jhT5pc
